@@ -1,0 +1,39 @@
+{
+    "name": "imansugirman/laravel-bootstrap-4-form",
+    "type": "package",
+    "description": "Bootstrap 4 form builder for Laravel 5",
+    "keywords": [
+        "laravel",
+        "bootstrap",
+        "forms",
+        "php",
+        "form-builder",
+        "composer",
+        "package"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "José Sousa",
+            "email": "sputinykster@gmail.com"
+        }
+    ],
+    "version": "2.0.6",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "ImanSugirman\\Bootstrap4Form\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ImanSugirman\\Bootstrap4Form\\Bootstrap4FormsServiceProvider"
+            ],
+            "aliases": {
+                "Form": "ImanSugirman\\Bootstrap4Form\\Bootstrap4FormsFacade"
+            }
+        }
+    }
+}
